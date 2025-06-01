@@ -1,4 +1,7 @@
 from os import getenv
+from dotenv import load_dotenv
+
+load_dotenv()  # Load variables from .env into environment
 class Config(object):
     LOGGER = True
 
