@@ -8,7 +8,7 @@ class Config(object):
   
     ANILIST_SECRET = getenv("ANILIST_SECRET", "NeCEq9A1hVnjsjZlTZyNvqK11krQ4HtSliaM7rTN")
   
-    API_ID = getenv("API_ID", None)
+    API_ID = getenv("API_ID", )
    
     API_HASH = getenv("API_HASH",None)
    
